@@ -1,0 +1,100 @@
+/* GlobAL */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1d4;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-geometric.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+.container {
+  width: 80%;
+  margin:auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.noDec {
+  list-style: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+/* display */
+
+.under {
+  border-bottom: 1px solid black;
+}
+
+.card {
+  margin-top:15px;
+  margin-bottom: 20px;
+  --padding: 15px;
+  border: 3px black solid;
+}
+
+.iContent {
+  padding:10px;
+  text-shadow: 1px 1px grey ;
+  height: 75px;
+  overflow: scroll;
+  font-size: 12px;
+}
+
+.iContent li {
+  padding-bottom: 5px;
+}
+
+.tHeader {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0px 1px 1px;
+}
+
+.townName {
+  font-size: 35px;
+  color: darkred;
+
+}
+
+.Location {
+  font-size: 10px;
+  color: grey;
+}
+
+.Services {
+  background-color: white;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  padding:5px;
+  padding-left:10px;
+  color: darkred;
+}
+
+.inns {
+  display: inline-block;
+  width: 30%;
+  margin: 5px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  vertical-align: top;
+
+}
