@@ -114,7 +114,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" style={{backgroundImage: "url('" + {bg} + "')" , backgroundSize: "200px 200px" }}>
+      <div className="App">
         <header className="App-header">
 
         </header>
