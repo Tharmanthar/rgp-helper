@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './CSS/App.css';
 import request from 'superagent';
-import bg from './img/bg.jpg';
 
 // https://reactjs.org/docs/lists-and-keys.html
 
