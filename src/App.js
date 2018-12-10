@@ -21,7 +21,7 @@ function ServicesInns (props) {
                 </div>
               </ul>
             )
-            return <div> {inns} </div>
+            return <div className="iContentCon"> {inns} </div>
         } else {
             return <p> No Know Inns </p>
         }
@@ -40,7 +40,7 @@ function ServicesShops (props) {
                 </div>
               </ul>
             )
-            return <div> {shops} </div>
+            return <div className="iContentCon" > {shops} </div>
         } else {
             return <p> No Know Shops </p>
         }
