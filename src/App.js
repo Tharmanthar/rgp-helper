@@ -76,7 +76,7 @@ function Towns (props) {
                     <li className="Services"> Inns </li>
                     <ServicesInns data={town.Services.Inns} />
                     <li className="Services"> Shops </li>
-                    <ServicesInns data={town.Services.Stores} />
+                    <ServicesShops data={town.Services.Stores} />
                   </ul>
             )
             })
