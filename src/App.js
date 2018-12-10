@@ -35,7 +35,7 @@ function ServicesShops (props) {
                 <li className="Services"> {shop.Name} </li>
                 <div className="iContent under">
                   <li> Owner: {shop.Owner} </li>
-                  <li> Quality: {shop.Type} </li>
+                  <li> Shop Type: {shop.Type} </li>
                   <li> Notes: {shop.Notes} </li>
                 </div>
               </ul>
