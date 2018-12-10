@@ -56,6 +56,7 @@ li {
   height: 75px;
   overflow: scroll;
   font-size: 12px;
+  background: #d0c8b0;
 }
 
 .iContent li {
