@@ -10,9 +10,9 @@ function ServicesInns (props) {
         if (data != null ) {
             const inns = data.map( (inn) =>
               <ul className="noDec inns">
-              <div className="Services">
-                <li> {inn.Name} </li>
-                <li className="Location"> Location: {inn.Location} </li>
+                <div className="Services">
+                  <li> {inn.Name} </li>
+                  <li className="Location"> Location: {inn.Location} </li>
                 </div>
                 <div className="iContent under">
                   <li> Owner: {inn.Owner} </li>
@@ -32,7 +32,10 @@ function ServicesShops (props) {
         if (data != null ) {
             const shops = data.map( (shop) =>
               <ul className="noDec inns">
-                <li className="Services"> {shop.Name} </li>
+              <div className="Services" >
+                <li> {shop.Name} </li>
+                <li className="Location"> Location: {shop.Location} </li>
+                </div>
                 <div className="iContent under">
                   <li> Owner: {shop.Owner} </li>
                   <li> Shop Type: {shop.Type} </li>
@@ -116,12 +119,22 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-
+          <h1> Aarons Crazy RGP TRACKER! </h1>
         </header>
 
         <section>
+        <div>
+          <div className="right side">
+              Nav links shall be going here!
+              <p>
+              Including multiple ways to filter and search Data
+              </p>
+              Hope to also include a quest tracker and important npc do dah .... also to work on da looks - not exactly a desiner!
+            </div>
+        </div>
           <div className="container" >
-            <Towns data={this.state.notes} />
+
+            <Towns className="left" data={this.state.notes} />
           </div>
         </section>
       </div>
